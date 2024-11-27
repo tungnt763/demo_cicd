@@ -32,7 +32,6 @@ jobs:
           push: true
           tags: tungnt169/ci-cd:staging
 
-
   pull-and-up:
     name: Pull new image and re run with the new version
     runs-on: ubuntu-latest
